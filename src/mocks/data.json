@@ -1,0 +1,21 @@
+{
+  "users": [{
+    "age": 41,
+    "name": "Chandler Bing"
+  }, {
+    "age": 32,
+    "name": "Joey Tribbiani"
+  }, {
+    "age": 38,
+    "name": "Ross Geller"
+  }, {
+    "age": 39,
+    "name": "Monica Geller"
+  }, {
+    "age": 35,
+    "name": "Rachel Green"
+  }, {
+    "age": 42,
+    "name": "Phoebe Buffay"
+  }]
+}

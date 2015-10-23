@@ -1,0 +1,45 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Example project",
+  "main": "index.js",
+  "scripts": {
+    "jshint": "jshint src",
+    "jscs": "jscs src --esprima=esprima-fb",
+    "start": "node app.js",
+    "test": "NODE_ENV=test mocha --require co-mocha $(find src -name \"*.spec.js\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabordobrei/node-example.git"
+  },
+  "author": "Gabor Dobrei <gabor.dobrei@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabordobrei/node-example/issues"
+  },
+  "homepage": "https://github.com/gabordobrei/node-example",
+  "pre-commit": [
+    "jshint",
+    "jscs"
+  ],
+  "dependencies": {
+    "koa": "^1.1.0",
+    "koa-helmet": "^0.3.0",
+    "koa-router": "^5.2.3"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-subset": "^1.1.0",
+    "co-mocha": "^1.1.2",
+    "co-supertest": "0.0.10",
+    "esprima-fb": "^15001.1001.0-dev-harmony-fb",
+    "jscs": "^2.3.3",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3",
+    "pre-commit": "^1.1.1",
+    "sinon": "^1.17.1",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.1.0"
+  }
+}
