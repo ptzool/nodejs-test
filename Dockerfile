@@ -9,6 +9,7 @@ RUN npm test
 
 ENV NODE_ENV production
 ENV NODE_TEST test
+ENV NODE_TEST2 test2
 
 EXPOSE 3000
 
