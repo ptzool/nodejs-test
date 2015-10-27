@@ -1,6 +1,6 @@
 'use strict';
 
-let helmet = require('koa-helmet');
+slet helmet = require('koa-helmet');
 let koa = require('koa');
 
 let config = require('./src/config');
