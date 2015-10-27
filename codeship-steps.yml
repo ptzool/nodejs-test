@@ -1,6 +1,5 @@
 - service: app
   type: push
   image_name: quay.io/ptzool/test
-  image_tag: prod
   registry: quay.io
   encrypted_dockercfg_path: dockercfg.encrypted
