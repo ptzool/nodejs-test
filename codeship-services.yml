@@ -2,3 +2,9 @@ app:
   build:
     image: quay.io/ptzool/test
     dockerfile_path: Dockerfile
+
+- service: app
+  type: push
+  image_name: quay.io/ptzool/test
+  registry: quay.io
+  encrypted_dockercfg_path: dockercfg.encrypted
