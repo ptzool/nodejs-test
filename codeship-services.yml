@@ -1,0 +1,4 @@
+app:
+  build:
+    image: quay.io/ptzool/test
+    dockerfile_path: Dockerfile
