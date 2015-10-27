@@ -8,6 +8,7 @@ RUN npm install
 RUN npm test
 
 ENV NODE_ENV production
+ENV NODE_TEST test
 
 EXPOSE 3000
 
