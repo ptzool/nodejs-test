@@ -7,7 +7,7 @@ Parse.Cloud.define('zool', function(req, res) {
 });
 
 Parse.Cloud.define('timi', function(req, res) {
-  res.success('timi vagyok');
+  res.success('timi vagyok es kesz');
 });
 
 
